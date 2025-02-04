@@ -111,7 +111,7 @@ def text_to_speech(response):
 
 # Generate response with Mistral API
 def generate_response(transcription):
-    MISTRAL_API_KEY = "YkGXGZtxSZBkJIjU8THCDRa0ptklrgrS"  # Set your API key in environment variables
+    MISTRAL_API_KEY = ""  # Set your API key in environment variables
     MISTRAL_API_URL = "https://codestral.mistral.ai/v1/fim/completions"  # Replace with the actual Mistral endpoint
     
     if not MISTRAL_API_KEY:
